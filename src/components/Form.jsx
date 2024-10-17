@@ -40,10 +40,10 @@ function Form(props){
     return(
       <form onSubmit={handleSubmit}>
         <label for="linkName">Link Name</label>
-        <input type="text" name="linkName" onChange={handleNameChange}/>
+        <input type="text" name="linkName" onChange={handleNameChange} value={name}/>
         <br/>
         <label for="linkURL">Link URL</label>
-        <input type="text" name="linkURL" onChange={handleURLChange}/>
+        <input type="text" name="linkURL" onChange={handleURLChange} value={URL}/>
 
         <br/>
         <br/>
